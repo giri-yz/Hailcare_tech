@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hail Care Tech</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- HERO SECTION -->
+    <header class="hero">
+        <div class="hero-content fade-in">
+            <h1>HAIL CARE TECH</h1>
+            <p>Water Treatment • Facility Maintenance • Technical Services</p>
+            <a href="#contact" class="btn">Contact Us</a>
+        </div>
+    </header>
+
+
+    <!-- ABOUT SECTION -->
+    <section class="about split-section">
+        <div class="about-text fade-left">
+            <h2>About Us</h2>
+            <p>
+                Hail Care Tech provides water treatment services, STP support, electrical & plumbing
+                works, facility maintenance, manpower supply and tank cleaning services. 
+                We deliver reliable and efficient service for apartments, industries and commercial buildings.
+            </p>
+        </div>
+
+        <div class="about-image fade-right">
+            <img src="images/about/about-photo.jpg" alt="About Hail Care Tech">
+        </div>
+    </section>
+
+
+    <!-- SERVICES SECTION -->
+    <section class="services">
+        <h2>Our Services</h2>
+
+        <div class="service-grid">
+
+            <div class="service-card">
+                <img src="images/services/water-treatment.jpg" class="service-img">
+                <h3>Water Treatment</h3>
+                <div class="service-desc">
+                    Sales, installation and maintenance of water treatment systems.
+                </div>
+            </div>
+
+            <div class="service-card">
+                <img src="images/services/stp.jpg" class="service-img">
+                <h3>Sewage Treatment</h3>
+                <div class="service-desc">
+                    STP sales, service, repair and AMC support.
+                </div>
+            </div>
+
+            <div class="service-card">
+                <img src="images/services/electrical.jpg" class="service-img">
+                <h3>Electrical & Plumbing</h3>
+                <div class="service-desc">
+                    All electrical and plumbing repair works.
+                </div>
+            </div>
+
+            <div class="service-card">
+                <img src="images/services/facility.jpg" class="service-img">
+                <h3>Facility Maintenance</h3>
+                <div class="service-desc">
+                    Complete maintenance for apartments & commercial buildings.
+                </div>
+            </div>
+
+            <div class="service-card">
+                <img src="images/services/manpower.jpg" class="service-img">
+                <h3>Manpower Supply</h3>
+                <div class="service-desc">
+                    Skilled technicians for operations & maintenance.
+                </div>
+            </div>
+
+            <div class="service-card">
+                <img src="images/services/tank-cleaning.jpg" class="service-img">
+                <h3>Tank Cleaning</h3>
+                <div class="service-desc">
+                    Overhead and sump tank cleaning with hygiene procedures.
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+
+        <div class="contact-box">
+            <p><strong>Phone:</strong> 
+    <a href="tel:+919841811302">+91 98418 11302</a>, 
+    <a href="tel:04447663712">044-4766 3712</a>
+</p>
+
+            <p><strong>Email:</strong> 
+    <a href="mailto:contact@hailcaretech.com">contact@hailcaretech.com</a>
+</p>
+
+            <p><strong>Address:</strong> NO: 11 B, THILAGAVATHI 2ND STREET, GANGAI NAGAR, KALLIKUPPAM, AMBATTUR, CHENNAI,
+TAMIL NADU – 600 0053 </p>
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025 Hail Care Tech | All Rights Reserved</p>
+    </footer>
+
+
+    <!-- SERVICE DROPDOWN SCRIPT -->
+    <script>
+        const cards = document.querySelectorAll(".service-card");
+
+        cards.forEach(card => {
+            card.addEventListener("click", () => {
+                card.classList.toggle("open");
+            });
+        });
+    </script>
+
+</body>
+</html>
